@@ -1,6 +1,6 @@
 # Credit Card Transactions – SQL Analytics Project
 
-This project analyzes credit card transactions using MySQL 8+ and window functions.
+This SQL analytics project analyzes a real credit card transactions dataset using MySQL 8 features such as window functions, CTEs, aggregation, and date functions. The goal is to demonstrate practical SQL skills for a Data Analyst role.
 
 ## Dataset
 Credit card transactions with columns:
@@ -10,6 +10,15 @@ Credit card transactions with columns:
 - exp_type
 - gender
 - amount
+
+## Table of Contents
+1. Introduction
+2. Database Schema
+3. Dataset
+4. How to Run
+5. Queries & Insights
+6. Results & Interpretation
+7. Author & Contact
 
 ## Objectives
 1. Top 5 cities by spend and % contribution
@@ -29,11 +38,16 @@ Credit card transactions with columns:
 - CTEs
 
 ## How to Run
+
+0. Install MySQL 8+ and enable local infile:
+   ```sql
+   SET GLOBAL local_infile = 1;
 1. Create DB and tables using `schema.sql`
 2. Load data using `load_data.sql`
 3. Run analytics in `analysis_queries.sql`
 
 ---
 
-Author: Rahul Choudhary  
+Author: Rahul Bhankhad 
+Email: irahulbhankhad@gmail.com
 Goal: Data Analyst Portfolio Project
